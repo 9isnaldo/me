@@ -1,0 +1,28 @@
+---
+import SocialIcons from '../SocialIcons.astro';
+import Title from '../atoms/Title.astro';
+import "./about.css"
+
+
+---
+
+<section id="about" class="about">
+	<div class="about__container">
+		<img
+		class="about__img"
+		src="/img/profile_2.jpeg"
+		alt="Isnaldo Ferreira"
+		width="384"
+    	height="384"
+		/>
+
+		<div class="about__content">
+			<Title margin="1rem" contenido="Sobre mim" />
+			<p class="about__text">
+				Como desenvolvedor web com experiência em HTML, CSS, JavaScript, React e Astro , estou sempre em busca de novos aprendizados e desafios. Estou interessado em explorar tecnologias como Java, Angular, Node.js, enquanto também considero áreas como desenvolvimento de aplicativos móveis. Estou animado para continuar minha jornada de crescimento e contribuir para projetos inovadores.
+			</p>
+			<SocialIcons width="25" height="25"/>
+		</div>
+	</div>
+
+</section>
